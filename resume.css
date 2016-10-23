@@ -88,3 +88,30 @@ span.glyphicon {
     
 }
 
+h2{
+    font-size: 200%
+}
+
+@media only screen and (max-width: 320px) {
+
+   h2 { font-size: 120%;}
+}
+
+@media only screen and (max-width: 620px) {
+
+   h2 { font-size: 150%;}
+}
+
+@media only screen and (max-width: 320px) {
+
+   h1 { font-size: 50%;}
+}
+
+@media only screen and (max-width: 650px) {
+
+   h1 { font-size: 150%;}
+}
+h1{
+
+    font-size: 200%;
+}
