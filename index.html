@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Resume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="resume.css">
+<script type="text/javascript">
+var change = true;
+var change1 = true;
+var change2= true;
+var change3= true;
+
+function toggle_caret() {
+    $("#caret1").toggleClass("glyphicon-chevron-down", change);
+    $("#caret1").toggleClass("glyphicon-chevron-up", !change);
+    change = !change
+}
+function toggle_caret1() {
+    $("#caret2").toggleClass("glyphicon-chevron-down", change1);
+    $("#caret2").toggleClass("glyphicon-chevron-up", !change1);
+    change1 = !change1
+}
+function toggle_caret2() {
+    $("#caret3").toggleClass("glyphicon-chevron-down", change2);
+    $("#caret3").toggleClass("glyphicon-chevron-up", !change2);
+    change2 = !change2
+}
+
+function toggle_caret3() {
+    $("#caret4").toggleClass("glyphicon-chevron-down", change3);
+    $("#caret4").toggleClass("glyphicon-chevron-up", !change3);
+    change3 = !change3
+}
+
+ $(function(){
+ 	 $('div.e1').fadeIn(1500).removeClass('e1');
+ 	  $('div.e2').fadeIn(2000).removeClass('e2');
+ 	   $('div.e3').fadeIn(2500).removeClass('e3');
+ 	
+
+   $('div.d1').fadeIn(3500).removeClass('d1');
+   $('div.d2').fadeIn(4000).removeClass('d2');
+   $('div.d3').fadeIn(5000).removeClass('d3');
+   $('div.edu1').fadeIn(6000).removeClass('edu1');
+   $('div.proj').fadeIn(7000).removeClass('proj');
+   $('div.award').fadeIn(8000).removeClass('award');
+   $('div.publication').fadeIn(9000).removeClass('publication');
+
+
+       
+            $("#edu").hover(function(){
+
+          $(this).css("background-color", "#f2f2f2");
+          },
+          function(){
+
+          $(this).css("background-color", "#ffffff ");
+          });
+
+      $("#sec2").click(function(){  
+        
+        toggle_caret();
+
+        $("#dd").slideToggle("5000");
+          
+       
+    });
+       $("#sec3").hover(function(){
+
+          $(this).css("background-color", "#f2f2f2");
+          },
+          function(){
+
+          $(this).css("background-color", "#ffffff ");
+          });
+
+        $("#sec3").click(function(){  
+        
+        toggle_caret1();
+        $("#data1").slideToggle("slow");
+          
+       
+    });
+
+
+         $("#sec4").hover(function(){
+
+          $(this).css("background-color", "#f2f2f2");
+          },
+          function(){
+
+          $(this).css("background-color", "#ffffff ");
+          });
+
+        $("#sec4").click(function(){  
+
+        toggle_caret2();
+        $("#data2").slideToggle("slow");
+          
+       
+    });
+
+          $("#sec5").hover(function(){
+
+          $(this).css("background-color", "#f2f2f2");
+          },
+          function(){
+
+          $(this).css("background-color", "#ffffff ");
+          });
+
+        $("#sec5").click(function(){ 
+
+        toggle_caret3();
+        $("#data3").slideToggle("slow");
+          
+       
+    });
+      
+});
+
+</script>
+<!--  .navbar-default {
+    background-color: #2e358a;
+    border-color: #1714af;
+}
+.navbar-default .navbar-brand {
+    color: #f5f5f5;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #f5f5f5;
+}
+</style>-->
+
+</head>
+<body data-spy="scroll" data-target=".navbar">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+
+  <div class="container-fluid">
+
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand">Resume</div>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <div id="nav">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#sec1">About</a></li>
+      <li><a href="#sec2">Education</a></li>
+      <li><a href="#sec3">Projects</a></li> 
+      <li><a href="#sec4">Awards</a></li> 
+      <li><a href="#sec5">Publications</a></li>
+    </ul></div>
+     </div>
+    </div>
+  </div>
+</nav>
+  <br><br>
+<div class="panel panel-default">
+<br>
+<div id="sec1">
+<div class="container-fluid">
+
+<!--<table class="col-xs-12" >
+
+  <td class="col-xs-6"><img src="vish.jpg" class="img-thumbnail" alt="Cinque Terre" width="auto" height="auto"></td>
+  <td class="col-xs-6"><h2  style="font-size:3em;">Vishmita Shetty</h2>
+   <p style="font-size:100%;"><b>Email: </b> <i>vishmita94@gmail.com</i> </p> 
+   <br>
+  <a href="https://github.com/vishmitashetty"> <img src="git.png" class="img-thumbnail" alt="Cinque Terre" width="40px" height="40px"></a>
+   <a href="https://in.linkedin.com/in/vishmitashettyy"> <img src="linkedin.png" class="img-thumbnail" alt="Cinque Terre" width="40px" height="40px"></a>
+    <a href="https://www.hackerearth.com/@vishmitashetty94"> <img src="he.png" class="img-thumbnail" alt="Cinque Terre" width="40px" height="40px"></a>
+     <a href="https://minttechno.wordpress.com/"> <img src="mt.jpg" class="img-thumbnail" alt="Cinque Terre" width="40px" height="40px"></a></td>
+  </table>
+</table>-->
+
+<!--<div class="col-sm-4">
+<table>
+	<td><img src="vish.jpg" class="img-thumbnail" alt="Cinque Terre" width="100%" height="auto" align="middle"></td>
+</table>
+ </div>
+ <div class="col-sm-8">
+  <div class="e1"> <h1>Vishmita Shetty</h1></div>
+ <div class="e2">  <p><b>Email: </b> <i>vishmita94@gmail.com</i> </p> </div>
+   <br>
+<div class="e3">  <a href="https://github.com/vishmitashetty"> <img src="git.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+ <a href="https://in.linkedin.com/in/vishmitashettyy"> <img src="linkedin.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+ <a href="https://www.hackerearth.com/@vishmitashetty94"> <img src="he.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+<a href="https://minttechno.wordpress.com/"> <img src="mt.jpg" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+ </div></div>-->
+
+ <!--<div >
+<table class="col-sm-12">
+	<td><img src="vish.jpg" class="img-thumbnail" alt="Cinque Terre" width="40%" height="40%" align="middle"></td>
+
+
+<td align="center">  <div class="e1"> <h1>Vishmita Shetty</h1></div>
+ <div class="e2">  <p><b>Email: </b> <i>vishmita94@gmail.com</i> </p> </div>
+   <br>
+<div class="e3">  <a href="https://github.com/vishmitashetty"> <img src="git.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+ <a href="https://in.linkedin.com/in/vishmitashettyy"> <img src="linkedin.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+ <a href="https://www.hackerearth.com/@vishmitashetty94"> <img src="he.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+<a href="https://minttechno.wordpress.com/"> <img src="mt.jpg" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a></div></td>
+
+</table>
+ </div>-->
+
+
+ <div class="col-sm-12" >
+<img src="vish.jpg" class="img-responsive" alt="Cinque Terre" width="190px" align="left">
+
+<div class="e1"> <h1 id="h1">Vishmita Shetty</h1></div>
+ <div class="e2">  <p id="h2"><b>Email: </b> <i>vishmita94@gmail.com</i> </p> </div>
+   <br>
+<div class="e3" id="h3">  <a href="https://github.com/vishmitashetty"> <img src="git.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+ <a href="https://in.linkedin.com/in/vishmitashettyy"> <img src="linkedin.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+ <a href="https://www.hackerearth.com/@vishmitashetty94"> <img src="he.png" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a>
+<a href="https://minttechno.wordpress.com/"> <img src="mt.jpg" class="img-thumbnail" alt="Cinque Terre" width="45px" height="45px"></a></div>
+
+
+ </div>
+
+
+
+
+</div>
+<br>
+<hr>
+<div class="container-fluid">
+<div class ="d1">
+<h4>OBJECTIVE</h4>
+
+<i>To secure a challenging position in an organization that provides me with strong foundation for professional growth where, I can effectively contribute my skills with passion as a professional, possessing competent technical skills and that gives scope to enhance my skills and knowledge.</i></div>
+<br><br>
+<div class="d2">
+<h4>EXPERIENCE</h4>
+<table class="table table-hover">
+  <tbody>
+
+    <td><b>MERILENT INC (June 2016- October 2016)</b><br><br>
+    Completed 5 months of Training and have Hands on Experience with .NET Technology like C#,  Entity Framework, ASP .NET Web Application ,Web API , Basics of MVC Application, SQL Server 2012 and Angular JS.
+    </td>
+  </tbody>
+</table>
+</div>
+<br><br>
+<div class="d2">
+<h4>SOFTWARE PROFICIENCY</h4>
+<table class="table table-hover">
+    
+    <tbody>
+      <tr>
+        <td> Worked Languages</td>
+        <td>C, C#, Java, AIML, HTML, CSS, Java Script,  Angular JS,  JQuery.
+</td>
+        
+      </tr>
+      <tr>
+        <td>Databases</td>
+        <td>Microsoft SQL Server 2012, My SQL. </td>
+      </tr>
+      <tr>
+        <td>Framework</td>
+        <td>Bootstrap, Entity Framework.</td>
+      </tr>
+       <tr>
+        <td>Worked Operating System</td>
+        <td>Windows XP, Windows 7, Windows 8, 8.1 pro,10, Ubuntu. </td>
+      </tr>
+      
+    </tbody>
+  </table></div>
+  <br>
+  <div class="d3">
+<h4>PERSONAL PROFILE</h4>
+<table class="table table-hover">
+    
+    <tbody>
+      <tr>
+        <td>DATE OF BIRTH</td>
+        <td>22/10/1994</td>
+        
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>Female</td>
+      </tr>
+      <tr>
+        <td>Nationality</td>
+        <td>Indian</td>
+      </tr>
+       <tr>
+        <td>Languages Known</td>
+        <td>English, Hindi, Marathi, Tulu</td>
+      </tr>
+       <tr>
+        <td>Hobbies</td>
+        <td>Reading, Travelling, Playing Basketball, Listening to
+Music,  Passionate  about  Learning  new  Things  and
+Technology.
+</td>
+      </tr>
+    </tbody>
+  </table></div>
+</div>
+<hr>
+
+<table class="col-xs-12" id="edu">
+
+  <td class="col-xs-11"><div id="sec2" >
+<div class="edu1"><h2><i>Education</i></h2></div></div></td>
+  <td class="col-xs-1"><div ><span id="caret1" class="glyphicon glyphicon-chevron-down"></span><br></div></td>
+  </table>
+</table>
+
+<!--<div id="sec2" class="col-xs-6">
+<div class="edu1"><h2><i>Education</i></h2></div></div>
+<div class="col-xs-6"><br><span id="caret1" class="glyphicon glyphicon-chevron-down"></span><br></div>-->
+
+
+<div id="dd" class="data">
+ <div class="col-xs-10"> <h3>Atharva College of Engineering</h3>
+
+      
+        <p class= "grad">
+                 <b>Bachelor’s Degree, Computer Engineering</b><br>
+                2012 - 2016<br>
+                CGPA: 8.64 / 10 <br>
+                Description: 
+                <p class="in"><i>Worked on project domains like Artificial Intelligence, Virtual and Augmented Reality, Web and App Development code available on Git hub</i></p>
+                Extra Circular Activities: 
+                <i><ul><li> Worked for coding committee Code-Chef Atharva Chapter - CodeStrike.</li>
+
+                <li> Volunteer in NSS-Atharva. </li>
+                <li> Worked with publicity and registration team in college cultural fest Rhythm-2013. </li>
+                <li> Event Head for Mumbai level Python workshop. </li>
+                <li> Class Representative, TPO .</li>
+                <li> Attended ANDROID   APPLICATION DEVELOPMENT, GenNext Operating System & App Development, Cloud Computing Seminar, Web Development Workshop, Google Devfest.</li>
+                <li>  Presented Technical Paper in Intra-College Fest Techniton and in SPIT.</li>
+                </ul></i>
+        </p>
+      </div>
+      <div class="col-xs-2" id="img1">
+                  <img src="ace.gif" class="img-thumbnail" alt="Cinque Terre" width="100" height="100">
+      </div>
+       
+          
+
+<div class="col-xs-10">
+<h3>Shankar Narayan College</h3>
+
+<p class= "grad">
+ <b> HSC, Science</b><br>
+2010 - 2012<br>
+Percentage: 79.5% <br>
+Extra Circular Activities: <i>
+  <ul>
+  <li>Class Representative</li>
+  <li>Actively participated in  Sports and participated in Inter college Competition gyanmanthan</li>
+</ul>
+</i>
+</p>
+</div>
+<div class="col-xs-2" id="img2">
+ <img src="sn.png" class="img-thumbnail" alt="Cinque Terre" width="100" height="100">
+</div>
+
+
+<div class="col-xs-10">
+<h3>Queen Mary's English High School</h3>
+<p class= "grad">
+ <b> SSC</b><br>
+2005 - 2010<br>
+Percentage: 89.45% <br>
+Extra Circular Activities: <i>
+  <ul>
+    <li> 3 years of aerobics experience </li>
+    <li>Actively participated in sports,won small time competition</li>
+  </ul>
+</i>
+</p>
+</div>
+<div class="col-xs-2" id="img3">
+  <img src="qm.gif" class="img-thumbnail" alt="Cinque Terre" width="100" height="100">
+</div>
+</div></div>
+
+<table class="col-xs-12" id="sec3">
+
+  <td class="col-xs-11" ><div class="proj"><h2><i>Projects</i></h2></div></td>
+  <td class="col-xs-1"><div ><span id="caret2" class="glyphicon glyphicon-chevron-down"></span><br></div></td>
+  </table>
+
+
+
+
+<!--<div id="sec3" class="col-xs-12">
+<div class="proj"><h2><i>Projects</i></h2></div></div>-->
+
+<div id="data1">
+
+ <div class="col-xs-12"> <h3>College Based Virtual Assistant</h3>      
+        <p class= "grad">
+                
+                Description: 
+                <p class="in"><i>It's a Artificial Intelligence bot that is strictly college oriented to guide student regrading college related query and also general query.Based on Android the frontend is developedby using XML and backend is developed by using SQLite,AIML for static learning.</i></p>
+               
+        </p>
+      </div>
+
+<div class="col-xs-12"> <h3>VAR</h3>      
+        <p class= "grad">
+                
+                Description: 
+                <p class="in"><i>Making virtual and augmented reality device inspired by SSD. And making improvement in the existing prototype</i></p>
+               
+        </p>
+      </div>
+
+
+<div class="col-xs-12"> <h3>Messaging Application</h3>      
+        <p class= "grad">
+                
+                Description: 
+                <p class="in"><i>OS project windows based Messaging Application using C# in Visual  Studio.</i></p>
+               
+        </p>
+      </div>
+
+<div class="col-xs-12"> <h3> Chat Application.</h3>      
+        <p class= "grad">
+                
+                Description: 
+                <p class="in"><i>NTAL project windows based Chat Application using C# in Visual  Studio.</i></p>
+               
+        </p>
+      </div>
+
+<div class="col-xs-12"> <h3> Trade Application.</h3>      
+        <p class= "grad">
+                
+                Description: 
+                <p class="in"><i>ASP.NET Web Application using Angular front to back with Web API , Entity Framework</i></p>
+               
+        </p>
+      </div>
+</div>
+
+
+
+<table class="col-xs-12" id="sec4">
+
+  <td class="col-xs-11" ><div class="award"><h2><i>Awards</i></h2></div></div></td>
+  <td class="col-xs-1"><div ><span id="caret3" class="glyphicon glyphicon-chevron-down"></span><br></div></td>
+  </table>
+
+
+
+                                    
+<!--<div id="sec4" class="col-xs-12">
+<div class="award"><h2><i>Awards</i></h2></div></div>-->
+<div id="data2">
+
+<div class="col-xs-12"> <h3>Felicitation of Meritious Student</h3>      
+        <p class= "grad">
+                July 2011 <br>
+                Description: 
+                <i>Topper of Junior College at FYJC.</i>
+               
+        </p>
+      </div>
+
+<div class="col-xs-12"> <h3>Felicitation of Meritious Student</h3>      
+        <p class= "grad">
+                July 2012 <br>
+                Description: 
+                <i>Topper of Junior College at SYJC and Engineering Competitive exam MH-CET.</i>
+               
+        </p>
+      </div>
+
+ <div class="col-xs-12"> <h3>Best Student of year Award</h3>      
+        <p class= "grad">
+                April 2012 <br>
+               
+        </p>
+      </div>
+<div class="col-xs-12"> <h3>Topper at Ideal Institute</h3>      
+        <p class= "grad">
+                December 2011 <br>
+                
+               
+        </p>
+      </div>
+<div class="col-xs-12"> <h3>BUNTS SANGHA AWARD</h3>      
+        <p class= "grad">
+                December 2010 <br>           
+               
+        </p>
+      </div>
+<div class="col-xs-12"> <h3>Felicitation at Karnataka Sangha</h3>      
+        <p class= "grad">
+                October 2010 <br>           
+               
+        </p>
+      </div>
+<div class="col-xs-12"> <h3>Won Technical Paper presentation</h3>      
+        <p class= "grad">
+                November 2014 <br> 
+                 Description: 
+                <i>1st prize in technical paper presentation competition at Intra-college technical fest Techiton.</i>          
+               
+        </p>
+      </div>
+
+ <div class="col-xs-12"> <h3>Designed Problem for International Coding Competition conducted by Code Chef</h3>      
+        <p class= "grad">
+                September 2015 <br> 
+                       
+               
+        </p>
+      </div>     
+
+</div>
+
+
+<table class="col-xs-12" id="sec5">
+
+  <td class="col-xs-11" ><div class="publication"><h2><i>Publications</i></h2></div></td>
+  <td class="col-xs-1"><div ><span id="caret4" class="glyphicon glyphicon-chevron-down"></span><br></div></td>
+  </table>
+
+<!--<div id="sec5" class="col-xs-12">
+<div class="publication"><h2><i>Publications</i></h2></div></div>-->
+
+
+
+<div id="data3">
+<div class="col-xs-12"> <h3>Research paper on Sixth Sense Technology</h3>      
+        <p class= "grad">
+                International Journal of Science and Reasearch <br> 
+                December 10, 2014
+                       
+               
+        </p>
+      </div>    
+
+<div class="col-xs-12"> <h3>Literature Review: Query Based Information Extraction</h3>      
+        <p class= "grad">
+               International Journal for Scientific Research And Development <br> 
+               Febuary 25, 2016
+                       
+               
+        </p>
+      </div>    
+
+<div class="col-xs-12"> <h3>Study of Hardware and Software used in: Virtual and Augmented Reality Device</h3>      
+        <p class= "grad">
+                 International Journal for Scientific Research And Development <br> 
+               Febuary 25, 2016
+                       
+               
+        </p>
+      </div>    
+<div class="col-xs-12"> <h3>ARTIFICIALLY INTELLIGENT COLLEGE ORIENTED VIRTUAL ASSISTANT</h3>      
+        <p class= "grad">
+                International Journal of Technical Research and Application <br>
+                April 15, 2016 
+                       
+               
+        </p>
+      </div>    
+
+<div class="col-xs-12"> <h3>About Git and Github</h3>      
+        <p class= "grad">
+                Meduim <br>
+
+               
+                       
+               
+        </p>
+      </div>  
+<div class="col-xs-12"> <h3>Control Your Windows PC via Speech using Macro.</h3>      
+        <p class= "grad">
+                Meduim <br>
+               
+                       
+               
+        </p>
+      </div>         
+
+
+ </div>                       
+
+</div>
+<div class="col-xs-12">
+<div class="panel-footer "><div class="foot pull-right"><i><b>&copy; Copyright Vishmita Shetty</b></i></div></div></div>
+</div>
+
+</body>
+</html>
